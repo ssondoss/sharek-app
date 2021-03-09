@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".TermsAndConditions">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        >
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+android:gravity="center_vertical"
+            android:paddingHorizontal="10dp"
+            android:text="الرجاء قراءة التعليمات كاملة عند الاشتراك بالتطبيق وهي :"
+            android:textColor="#000"
+            android:background="#A1E1DFDF"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="15dp"
+            android:textColor="#000000"
+            android:paddingHorizontal="10dp"
+            android:text="1. يجب أن يكون المستخدم أردني الجنسيه ."
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:textColor="#000000"
+            android:paddingHorizontal="16dp"
+
+            android:text="2. يجب أن يتجاوز عمر المستخدم 18 عاماً .ً"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:textColor="#000000"
+            android:paddingHorizontal="16dp"
+
+            android:text="3. يمنع إرسال إبلاغات أو شكاوي تتضمن التشهير بأشخاص أو ممتلكات ."
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:textColor="#000000"
+            android:paddingHorizontal="16dp"
+
+            android:text="4. التأكد من الإبلاغ أو الشكوى قبل إرسالها للجهات المعنية ."
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+android:paddingVertical="10dp"
+            android:paddingHorizontal="16dp"
+
+            android:text="5. استخدام زر الاتصال عند الحالات الطارئة فقط . "
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:text="6 . سيتم حظر أو إيقاف أو إلغاء أي حساب يتضمن محتوى زائف أو غير صحيح . "
+            android:textColor="#000000"
+            android:paddingHorizontal="16dp"
+
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="16dp"
+
+            android:layout_marginBottom="20dp"
+            android:textColor="#CA2F2F"
+            android:text="ملاحظة
+أعتقد أن السياسات والشروط الخاصة بالتطبيق تحتاج إلى محام لضبط نصها الصريح والشامل ، أما ما ذكر هو بعض ما قد أعتبره ضروري للنظام على قدر معرفتي الضئيلة . "/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

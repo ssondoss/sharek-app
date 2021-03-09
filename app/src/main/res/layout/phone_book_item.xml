@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+
+    <TextView
+        android:id="@+id/title_of_phone"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@drawable/table_body"
+
+        android:layout_weight="1"
+        android:text="911"
+        android:textColor="#373333"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@drawable/table_body"
+        android:layout_weight="1"
+        android:text="الدوريات الخارجية"
+        android:textColor="#373333"
+        android:textSize="16sp"
+        />
+</TableRow>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="NamespaceTypo">
+    <item android:id="@+id/nav_home" android:title="الصفحة الرئيسية"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_home_24"
+        android:gravity="right"
+        />
+    <item android:id="@+id/nav_photo" android:title="إرسال شكوى أو إبلاغ"
+    app:showAsAction="never"
+    android:icon="@drawable/ic_add_photo"
+    android:gravity="right"
+    />
+    <item android:id="@+id/nav_call" android:title="الاتصال بالطوارئ"
+        android:icon="@drawable/ic_call"
+        app:showAsAction="never" />
+
+
+    <item android:id="@+id/nav_conditions" android:title="السياسات والشروط للتطبيق"
+        android:icon="@drawable/ic_policy"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/nav_changePassword" android:title="تغيير كلمة السر"
+        android:icon="@drawable/ic_change_password"
+        app:showAsAction="never"/>
+    <item android:id="@+id/nav_follow" android:title=" تتبع الشكاوي أو الإبلاغات التي أرسلتها"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_follow"
+        />
+    <item android:id="@+id/nav_logout" android:title=" تسجيل الخروج"
+        android:icon="@drawable/ic_logout"
+        app:showAsAction="never"
+        />
+
+</menu>

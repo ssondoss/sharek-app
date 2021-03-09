@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">شارك</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_maps">Map</string>
+
+
+    <string-array name="states">
+        <item>إربد</item>
+        <item> عمان</item>
+        <item>الزرقاء</item>
+        <item>الطفيلة</item>
+        <item>معان</item>
+        <item>جرش</item>
+        <item>عجلون</item>
+<!--        <item>البلقاء</item>-->
+        <item>الكرك</item>
+        <item>المفرق</item>
+        <item>العقبة</item>
+        <item>السلط</item>
+    </string-array>
+    <string-array name="categories">
+        <item>البلدية</item>
+        <item>الأمن العام</item>
+        <item>الدفاع المدني</item>
+        <item>التقصي الوبائي</item>
+        <item>سلطة الكهرباء</item>
+        <item>مكافحة المخدرات</item>
+        <item>سلطة المياة</item>
+        <item>المخابرات</item>
+        <item>شرطة السير</item>
+        <item>فئة أخرى</item>
+
+    </string-array>
+
+</resources>
