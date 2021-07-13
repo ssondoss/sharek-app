@@ -1,6 +1,6 @@
 # sharek-android
 
-android app for <a href="https://cpgovappaward.jo/en">CPAP</a>
+first android app for <a href="https://cpgovappaward.jo/en">CPAP</a>
 
 ![reg-sharek](https://user-images.githubusercontent.com/58818907/110461307-f0ba5780-80d7-11eb-8544-2215f46ca52f.jpg)
 ![login-sharek](https://user-images.githubusercontent.com/58818907/110461504-2eb77b80-80d8-11eb-9292-46cb7a14025d.jpg)
